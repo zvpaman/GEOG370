@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Rosemary",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name": "Rosemary St." }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -79.063473799861143, 35.911293953237646 ], [ -79.06350577868794, 35.911293953237646 ], [ -79.052537041096755, 35.915515158374781 ] ] ] } }
+]
+}
