@@ -38,15 +38,12 @@
       var map = L.map('map', { attributionControl: false } ).setView([35.90288312825379, -79.04585324366019], 14.0);
       L.control.attribution( { prefix: false } ).addTo( map );
       
-      var tilesource_layer = L.tileLayer('./Assignment%204/{z}/{x}/{y}.png', {
+      var tilesource_layer = L.tileLayer('./tile/{z}/{x}/{y}.png', {
         minZoom: 12,
         maxZoom: 16,
         tms: false,
         attribution: 'Created by QGIS algorithm: Generate XYZ tiles (Directory)'
       }).addTo(map);
   </script>
-</body>
-</html>
-
 </body>
 </html>
